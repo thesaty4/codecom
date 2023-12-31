@@ -1,2 +1,6 @@
 // color varaibles
-@import "abstracts/variables";
+@import 'abstracts/variables';
+
+.drop-shadow {
+  filter: drop-shadow(2px 0px 12px black);
+}
