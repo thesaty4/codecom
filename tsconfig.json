@@ -17,8 +17,22 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "ES2022",
-    "module": "ES2022",
+    "module": "ES2022", 
     "useDefineForClassFields": false,
+    "baseUrl": "./libs",
+    "paths": {
+      "@codecom/*": [
+        "*"
+      ],
+      "portfolio": [
+        "./dist/portfolio"
+      ],
+      "theme": [
+        "./dist/theme",
+        "./dist/theme",
+        "./dist/theme"
+      ]
+    },
     "lib": [
       "ES2022",
       "dom"
